@@ -1,0 +1,139 @@
+body {
+margin: 0;
+padding: 0;
+background-image: linear-gradient(90deg, rgb(5, 75, 124) 10%,  rgb(155, 201, 240) 80%);
+}
+
+
+.container{
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius:50%;
+    background-image: linear-gradient(180deg, rgb(28, 32, 35) 10%,  rgb(121, 136, 149) 50%);
+    box-shadow: 5px 6px 10px 5px rgba(0, 0, 0, 0.2);
+    
+}
+.top-bar{
+    display: flex;
+    justify-content:center;
+    gap: 14px;
+    padding-top: 60px;
+    margin-top: 15px;
+    
+}
+.top-bar input{
+    display: flex;
+    width: 250px;
+    height: 70px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 20px;
+    color: #d09a2e;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 40px ;
+    cursor: pointer;
+
+}
+.weather-image{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    height: 220px;
+}
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 200;
+}
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 40px;
+    color: rgb(9, 226, 238);
+}
+.country{
+    font-size: 40px;
+    color: rgb(12, 212, 238);
+
+}
+.data-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgb(202, 222, 240);
+    gap: 50px;
+}
+.cord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.cord div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: #89f393;
+}
+
+ .cord div span {
+    font-size: x-large;
+ }
+
+ .cord div span:nth-child(2) {
+font-size: 18px;
+font-weight: bold;
+padding-top: 5px;
+}
+
+.element{
+    
+    display: flex;
+    gap: 3px;
+}
+.data{
+    font-size: 20px;
+    font-weight: 400;
+}
+.text{
+    font-size:20px;
+    font-weight: 400;
+    
+}
+.icon{
+margin: 5px;
+}
+.copyright{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 247, 7);
+    font-style: italic;
+    
+}
+
+.copyright span{
+    color: rgb(44, 240, 9);
+}
